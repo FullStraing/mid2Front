@@ -1,0 +1,84 @@
+:root {
+  color-scheme: light;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: whitesmoke;
+  color: darkblue;
+}
+button,input {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
+.users-page {
+  padding: 24px 16px 40px;
+}
+.users-page__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.users-page__layout {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.users-page__content {
+  display: grid;
+  gap: 20px;
+}
+
+.users-page__search {
+  padding: 20px;
+  border: 1px solid lightblue;
+  border-radius: 12px;
+  background: white;
+}
+
+.users-page__search-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: darkblue;
+}
+
+.users-page__search-input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid lightgray;
+  background: white;
+  color: darkblue;
+  outline: none;
+}
+
+.users-page__search-input:focus {
+  border-color: blue;
+}
+
+.users-page__state {
+  margin: 0;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 12px;
+  background: white;
+  text-align: center;
+  color: gray;
+}
+.users-page__state--error {
+  border-color: red;
+  color: red;
+}
+.users-page__list {
+  display: grid;
+  gap: 16px;
+}
+

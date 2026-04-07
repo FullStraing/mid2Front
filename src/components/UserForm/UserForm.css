@@ -1,0 +1,54 @@
+.user-form {
+  padding: 20px;
+  border: 1px solid lightblue;
+  background: white;
+}
+.user-form__form {
+  display: grid;
+  gap: 16px;
+}
+.user-form__field {
+  display: grid;
+  gap: 7px;
+}
+
+.user-form__label {
+  font-weight: 600;
+  color: darkblue;
+}
+
+.user-form__input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 13px;
+  border: 1px solid lightgray;
+  background: white;
+  font-size: 16px;
+  color: darkblue;
+  outline: none;
+}
+
+.user-form__input:focus {
+  border-color: blue;
+}
+.user-form__input--error {
+  border-color: red;
+}
+
+.user-form__error {
+  font-size: 14px;
+  color: red;
+}
+.user-form__button {
+  padding: 14px;
+  border: none;
+  background: blue;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.user-form__button:hover {
+  background: darkblue;
+}
